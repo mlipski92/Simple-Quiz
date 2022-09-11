@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap');
+
+.modal {
+    background-color: #f3f3f3;
+    padding: 20px 40px 50px 40px;
+    border: 1px solid #d1d1d1;
+    border-radius: 20px;
+    text-align: center;
+    width: 500px;
+}
+
+.modal .modal__title {
+    font-family: 'Quicksand', sans-serif;
+    font-size:32px;
+    font-weight: 500;
+    color:#6e6e6e;
+}
+
+.modal .modal__subtitle {
+    font-family: 'Quicksand', sans-serif;
+    font-size:24px;
+    font-weight: 400;
+    color:#6e6e6e;
+}
+
+.modal .modal__input {
+    background-color: #d9d9d9;
+    border: 1px solid #b7b7b7;
+    padding: 10px 15px;
+    width: 200px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+    color: #464646;
+    margin-right: 20px;
+}
+
+.modal .modal__button {
+    background-color: #ffd63f;
+    border: 1px solid #b7a87d;
+    padding: 10px 38px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #464646;
+    border-radius: 25px;
+    margin-top: 30px;
+}
+
+#errors {
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+
+}
+
+.error-red {
+    background-color: #f5bebe;
+    border: 1px solid #c7a1a1;
+    color: #140f0f;
+}
+
+.error {
+    width: 100%;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 12px 15px;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    position: fixed;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+}
+
+.modal__summaryQuestion, .modal__summaryAnswer {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    
+    color:#6e6e6e;
+}
+
+.modal__summaryAnswer {
+    font-weight: 800;
+}
+
+.modal__table {
+    width: 100%;
+}
+
+.modal__goodAnswer .modal__summaryAnswer {
+    background-color: #26d949 !important;
+    padding: 2px !important;
+    color: #fff !important;
+}
